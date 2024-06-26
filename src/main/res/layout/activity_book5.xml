@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+   >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:text="一、开篇引言
+
+《易经》者，三才之道也。立天之道曰阴与阳，立地之道曰柔与刚，立人之道曰仁与义。兼三才而两之，故《易》六画而成卦。分阴分阳，迭用柔刚，故《易》六位而成章。
+二、乾卦节选
+乾：元，亨，利，贞。
+初九：潜龙勿用。
+九二：见龙在田，利见大人。
+九三：君子终日乾乾，夕惕若，厉无咎。
+九四：或跃在渊，无咎。
+九五：飞龙在天，利见大人。
+上九：亢龙有悔。
+用九：见群龙无首，吉。
+三、总结与归纳
+《易经》开篇便阐述了天地人三才之道的基本原则，进而通过乾卦的六爻变化，展示了事物从潜藏到显现、从发展到鼎盛、再到亢悔的完整过程。乾卦作为《易经》之首，其蕴含的哲理深刻而广泛，体现了阴阳变化之道、刚柔相济之理，以及君子自强不息的精神。通过节选内容，我们可以初步领略到《易经》博大精深的智慧。"
+            />
+
+</LinearLayout>

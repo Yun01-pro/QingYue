@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="字体"
+        >
+<menu>
+    <item
+     android:title="大"
+     android:id="@+id/title_large"   />
+    <item
+        android:title="中"
+        android:id="@+id/title_middle"   />
+    <item
+        android:title="小"
+        android:id="@+id/title_little"   />
+
+
+</menu>
+
+    </item>
+    <item
+        android:title="关灯"
+        android:id="@+id/title_black"
+        />
+    <item
+        android:title="护眼"
+        android:id="@+id/title_green"   />
+
+</menu>

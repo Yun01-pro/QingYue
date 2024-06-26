@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+    tools:context=".FirstActivity">
+    <ImageView android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/img"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="青悦APP"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="注册界面"
+       android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_go_to_second"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="确认注册"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btn_go_to_second2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="返回登录"
+        android:layout_centerInParent="true"/>
+</LinearLayout>

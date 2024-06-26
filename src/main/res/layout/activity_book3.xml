@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="背景描述：
+时间：1805年，拿破仑征服欧洲之际，法俄之间爆发战争。
+地点：俄国上层社会与战场前线。
+人物与事件：
+青年公爵安德烈·保尔康斯基，新婚不久便奔赴前线，希望战争能带来荣耀。
+好友皮埃尔·别祖霍夫，莫斯科资本家，被迫与品行不佳的爱伦结婚。
+战争残酷，安德烈在奥斯特里茨战役中战败后回家，发现妻子在分娩中去世。
+情感与抉择：
+安德烈面对失去妻子的悲痛，决定在领地终老。
+皮埃尔发现妻子不忠，陷入道德和情感的困境。
+战争与和平的对比：
+战争带来的是死亡、离别和绝望。
+而在和平时期，人们追求的是爱情、幸福和家庭的温暖。"
+        />
+
+</LinearLayout>

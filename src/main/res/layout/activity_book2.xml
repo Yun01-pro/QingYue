@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="苏晓，一个热血的少年，签订了轮回契约，踏入了一个充满未知与挑战的乐园。他曾亲眼目睹世界的崩灭，也曾与被遗忘的王者持刃而战。在这个乐园中，他不断地穿梭于各个世界，执行着各种任务。
+某夜，苏晓蹲坐在一栋二层别墅的房顶，身着黑衣，头戴宽大的黑色兜帽，身形隐藏在黑暗中。他已经在此等候了两个小时，目标是一位带着醉意的中年人。当目标出现时，苏晓毫不犹豫地跃下房顶，手中的长刀划破空气，一刀将仇人的喉咙斩开。尽管鲜血喷涌，但苏晓依然冷静地逃离现场。
+在这个乐园中，苏晓不仅学会了人体解剖学、格斗、快速开锁等知识，还积累了丰富的战斗经验。他深知，只有不断地提升自己的实力，才能在乐园中生存下去。因此，他不断地挑战自我，不断地突破极限。
+总结来说，《轮回乐园》中的苏晓是一个充满勇气和智慧的少年，他在这个充满未知与危险的乐园中，不断地成长和进步。"
+        />
+
+</LinearLayout>

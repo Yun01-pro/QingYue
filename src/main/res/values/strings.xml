@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="my_name">Hello,world！!</string>
+    <string name="str1"><font color="#3399FF" >如有问题，请联系我们</font></string>
+    <string name="str2">联系电话:100101100</string>
+    <string name="str3">网址：www.kasshule.com</string>
+</resources>

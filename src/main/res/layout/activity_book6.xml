@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+   >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6"
+            android:text="梅花易数，源远流长，相传为麻衣、陈奇夷等传承之秘法，后由北宋邵康节先生发扬光大。此数法强调“心易”，认为心即道，道即理，数由心生。其名称的由来，据说与邵康节先生的一次观梅经历有关。当时，邵先生见两只麻雀在梅枝上争斗，后突然坠地，便以此现象起卦，占得次日将有邻女攀折梅花而受伤之事，结果果然应验。
+梅花易数中，数的运用至关重要。通过一系列的数字组合和变化，可以预知吉凶祸福。如乾一、兑二、离三、震四等，代表不同的元素和属性。五行生克之理也融入其中，金生水、水生木等，体现了宇宙间万物相互依存、相互制约的关系。
+此外，梅花易数还强调后天之数，即通过观察自然界和人事的变化，以卦起数，预知未来。这种以心观物、以物观心的占筮方法，体现了梅花易数独特的哲学思想和实践价值。
+
+"
+            />
+
+</LinearLayout>

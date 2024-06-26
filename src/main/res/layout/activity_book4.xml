@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/b03"
+   >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:text="七月初，酷暑蒸人。傍晚，一个青年从狭窄的斗室中走出，这是他向C胡同的二房东转租的顶层公寓。他沿着街道，缓缓朝K桥方向走去，心中却满是犹豫和不安。他避开了在楼梯上可能遇见的女房东，因为他欠了她一身的债，生怕与她碰面。
+青年的生活贫困潦倒，被贫困压得抬不起头来。然而，最近他发现自己甚至不再为这种窘困感到苦恼，内心充满了前所未有的平静。他感到自己仿佛站在一个重大决定的边缘，即将迈出崭新的一步。
+他深知，自己的行为将带来无法挽回的后果，但他却无法抑制内心的冲动。他不断在脑海中想象自己即将做出的“大事”，尽管他也深知自己害怕迈出这一步，害怕自己的新想法带来的未知。
+"
+            />
+
+</LinearLayout>
